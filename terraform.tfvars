@@ -1,0 +1,10 @@
+resource_group_name    = "ResourceGroupOne"
+location               = "uswest"
+virtual_network_name   = "vnet1"
+vnet_address_space     = ["10.0.0.0/16"]
+subnet1_name           = "subnet1"
+subnet2_name           = "subnet2"
+subnet3_name           = "subnet3"
+subnet1_address_prefix = ["10.0.1.0/24"]
+subnet2_address_prefix = ["10.0.2.0/24"]
+subnet3_address_prefix = ["10.0.3.0/24"]
